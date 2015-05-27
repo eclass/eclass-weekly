@@ -9,39 +9,39 @@ description: content
     <tr>
       <td>
         <h1>
-          <a href="#">
+          <a href="{{news_1.link}}">
             {{news_1.title}}
           </a>
         </h1>
         <p class="lead">
-          <a href="#">
+          <a href="{{news_1.link}}">
             {{news_1.content}}
           </a>
         </p>
 
         {{#if news_1.image}}
         	<p>
-	          <a href="#">
-	            <img src="{{news_1.image}}"/>
+	          <a href="{{news_1.link}}">
+	            <img src="{{news_1.image}}" mc:edit="header"/>
 	          </a>
 	        </p>
-        {{/if}}       
-        
+        {{/if}}
+
       </td>
     </tr>
   </table>
 </div>
 
 {{#each news_2}}
-	<div class="content">
+	<div class="content" mc:repeatable>
 	  <table bgcolor="">
 	    <tr>
 	      <td class="small" width="20%" style="vertical-align: top; padding-right:10px;">
-	        <img src="http://placehold.it/120x120"/>
+	        <img src="{{this.image}}" mc:edit="medium"/>
 	      </td>
 	      <td>
 	        <h4 style="margin-left: 5px;">
-	          <a href="#">
+	          <a href="{{this.link}}">
 	            {{this.title}}
 	            <small>
 	              {{this.tags}}
@@ -49,7 +49,7 @@ description: content
 	          </a>
 	        </h4>
 	        <p style="margin-left: 5px;">
-	          <a href="#">
+	          <a href="{{this.link}}">
 	            {{this.content}}
 	          </a>
 	        </p>
@@ -57,23 +57,22 @@ description: content
 	    </tr>
 	  </table>
 	</div>
-
 {{/each}}
 
 
 
 
 {{#each news_3}}
-	<div class="content">
+	<div class="content" mc:repeatable>
 	  <table bgcolor="">
 	    <tr>
 	      <td>
 	        <h5>
-	          {{this.title}}
+	          <a href="{{this.link}}">{{this.title}}</a>
 	        </h5>
 	        <p class="">
-	          <a href="#">
-	          {{this.content}}
+	          <a href="{{this.link}}">
+	          {{{this.content}}}
 	        </p>
 	      </td>
 	    </tr>
