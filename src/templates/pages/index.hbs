@@ -1,0 +1,82 @@
+---
+title: "eClassIO: ¿Qué ocurre en el mundo?"
+description: content
+---
+
+
+<div class="content">
+  <table>
+    <tr>
+      <td>
+        <h1>
+          <a href="#">
+            {{news_1.title}}
+          </a>
+        </h1>
+        <p class="lead">
+          <a href="#">
+            {{news_1.content}}
+          </a>
+        </p>
+
+        {{#if news_1.image}}
+        	<p>
+	          <a href="#">
+	            <img src="{{news_1.image}}"/>
+	          </a>
+	        </p>
+        {{/if}}       
+        
+      </td>
+    </tr>
+  </table>
+</div>
+
+{{#each news_2}}
+	<div class="content">
+	  <table bgcolor="">
+	    <tr>
+	      <td class="small" width="20%" style="vertical-align: top; padding-right:10px;">
+	        <img src="http://placehold.it/120x120"/>
+	      </td>
+	      <td>
+	        <h4 style="margin-left: 5px;">
+	          <a href="#">
+	            {{this.title}}
+	            <small>
+	              {{this.tags}}
+	            </small>
+	          </a>
+	        </h4>
+	        <p style="margin-left: 5px;">
+	          <a href="#">
+	            {{this.content}}
+	          </a>
+	        </p>
+	      </td>
+	    </tr>
+	  </table>
+	</div>
+
+{{/each}}
+
+
+
+
+{{#each news_3}}
+	<div class="content">
+	  <table bgcolor="">
+	    <tr>
+	      <td>
+	        <h5>
+	          {{this.title}}
+	        </h5>
+	        <p class="">
+	          <a href="#">
+	          {{this.content}}
+	        </p>
+	      </td>
+	    </tr>
+	  </table>
+	</div>
+{{/each}}

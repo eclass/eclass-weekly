@@ -1,0 +1,14 @@
+{
+  "name": "starter-kit",
+  "authors": [
+    "Raul Hernandez <raulghm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+  }
+}

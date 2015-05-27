@@ -1,0 +1,31 @@
+{
+	"news_1": {
+		"title": "title news 1",
+		"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, enim!",
+		"image": "http://placehold.it/600x300"
+	},
+	"news_2": [
+		{
+			"title": "title 1",
+			"tags": "asd sad sd",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quaerat voluptas velit iusto voluptates at nisi libero, eveniet, iure sit!"
+		},
+		{
+			"title": "title 2",
+			"tags": "asd sad sd",
+			"content": "Lorem ipsum dolor sit 2"
+		}
+	],
+	"news_3": [
+		{
+			"title": "title 1",
+			"tags": "asd sad sd",
+			"content": "Lorem ipsum dolor sit 1"
+		},
+		{
+			"title": "title 2",
+			"tags": "asd sad sd",
+			"content": "Lorem ipsum dolor sit 2"
+		}
+	]
+}
