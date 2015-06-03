@@ -1,51 +1,51 @@
 {
 	"news_1": {
-		"title": "ECMAScript 6",
-		"content": "¿Escribes Javascript?, entonces ocupas ECMAScript 5, la versión 6 es lo que se ocupa actualmente y debes conocer sus mejoras.",
+		"title": "wwwhere",
+		"content": "Repositorio de links a servicios, software o artículos disponibles, separados en categorías tales como: UX, Services, Architecture, etc.",
 		"image": "http://placehold.it/600x300",
-    "link": "http://git.io/es6features"
+    "link": "http://wwwhere.io/"
 	},
 	"news_2": [
 		{
-			"title": "Meteor",
-			"tags": "app, mobile, webapp",
-			"content": "Desarrolla aplicaciones web y mobile multiplataforma con javascript.",
-      "link": "https://www.meteor.com/",
+			"title": "Ladda",
+			"tags": "css, effects, ui, button",
+			"content": "Ejemplos de efectos que se podrían aplicar para un botón cuando se es clickeado.",
+      "link": "http://lab.hakim.se/ladda/",
       "image": "http://placehold.it/120x120"
 		},
     {
-      "title": "SailsJS",
-      "tags": "node, api, realtime",
-      "content": "SailsJS es un framework que te ayudará a levantar una API con soporte realtime en un par de pasos, soporta multiples base de datos con gran enfoque en la performance.",
-      "link": "http://sailsjs.org/",
+      "title": "Iconjar",
+      "tags": "icon, app",
+      "content": "Organize, search and use icons the easy way.",
+      "link": "http://geticonjar.com/",
       "image": "http://placehold.it/120x120"
     },
 		{
-			"title": "Koding",
-			"tags": "server, pair programming, hosting",
-			"content": "Desarrolla, comparte, publica tus proyectos online gratuitamente. Koding es un servidor online con acceso SSH que además cuenta con un potente editor online multiusuario, sólo te queda publicar tu proyecto con pocos clicks.",
-      "link": "https://koding.com/",
+			"title": "Heroku",
+			"tags": "server, ssh, hosting",
+			"content": "Heroku es una potente herramienta que nos ayudará a publicar fácilmente nuestro proyectos web con unos simples comandos en al consola al estilo GIT, soporta PHP, Ruby, Scala, NodejS, Django, entre otros.",
+      "link": "https://www.heroku.com",
       "image": "http://placehold.it/120x120"
 		}
 	],
 	"news_3": [
 		{
-			"title": "Beyond the for loop",
-			"tags": "manual, javascript, for, loop, while, map, reduce",
-			"content": "Aprende a ocupar los ciclos en Javascript, con este simple y didactico tutorial.",
-      "link": "http://www.macwright.org/presentations/beyondfor/#0"
+			"title": "Monobrand iOS UI Kit",
+			"tags": "UI, ios, mobile, design",
+			"content": "Un completo Kit UI para aplicaciones iOS",
+      "link": "http://market.designmodo.com/monobrand-ios/"
 		},
     {
-      "title": "Media Queries of the Future",
-      "tags": "css, media queries, css4",
-      "content": "Conoce las nuevas <i>media queries</i> que están soportando los navegadores.",
-      "link": "http://una.im/media-queries-of-the-future/"
+      "title": "console: algo más que console.log()",
+      "tags": "devtool, chrome, console, debug",
+      "content": "Aprende a utilizar el poder de console.[log|debug|info|warng|error]()",
+      "link": "http://fernetjs.com/2014/12/console-algo-mas-que-console-log/"
     },
 		{
-			"title": "Curso de React.js en Noders.cl",
-			"tags": "curso, gratis, reactjs",
-			"link": "https://www.youtube.com/watch?v=8zNZbx6ioDk",
-      "content": "React es la V en el MVC, incluye términos cómo Virtual DOM, optimización, entre otros. Conoce la tecnología del momento y aprende en la clase 1 de este curso gratuito que imparte NodersCL."
+			"title": "Nesting Components",
+			"tags": "css, solutions nesting, frontend",
+			"link": "http://simurai.com/blog/2015/05/11/nesting-components/",
+      "content": "Distintas soluciones, con sus pro y contras, que podrás aplicar a la hora de necesitar agregar estilos a un elementos dentro de otros."
 		}
 	]
 }
