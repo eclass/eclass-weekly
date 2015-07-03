@@ -105,7 +105,7 @@ gulp.task('templates', function () {
 			removeComments: true,
 			collapseWhitespace: false,
 		})))
-		//.pipe($.premailer())
+		.pipe($.inlineCss())
 		.pipe(gulp.dest(DEST))
 		.pipe($.if(watch, reload({stream: true})));
 });

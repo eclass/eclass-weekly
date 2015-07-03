@@ -98,6 +98,23 @@ table.head-wrap { width: 100%;}
 ------------------------------------- */
 table.body-wrap { width: 100%;}
 
+.content-2 .content {
+	border-bottom: 1px solid #eee;
+	padding-top: 20px; 
+}
+
+.content-3 {
+	padding-top: 20px; 
+}
+
+.content-3 .content {
+	border-bottom: 1px solid #eee;
+}
+
+.content-3 .content:last-child {
+	border-bottom: 0;
+}
+
 
 /* -------------------------------------
     FOOTER
@@ -127,7 +144,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; col
 h1 { font-weight:200; font-size: 44px;}
 h2 { font-weight:200; font-size: 37px;}
 h3 { font-weight:500; font-size: 27px;}
-h4 { font-weight:500; font-size: 23px;}
+h4 { 
+	font-weight:500; 
+	font-size: 23px;
+	margin-bottom: 5px;
+}
 h5 { font-weight:300; font-size: 17px; margin-bottom: 5px; }
 h6 { font-weight:900; font-size: 14px;}
 
@@ -139,6 +160,9 @@ p, ul {
   font-size:14px;
   line-height:1.6;
   margin-top:0;
+}
+p a {
+	color: #555;
 }
 p.lead { font-size:17px; }
 p.last { margin-bottom:0px;}

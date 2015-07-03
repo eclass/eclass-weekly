@@ -4,7 +4,7 @@ description: content
 ---
 
 
-<div class="content">
+<div class="content content-1">
   <table>
     <tr>
       <td>
@@ -32,50 +32,55 @@ description: content
   </table>
 </div>
 
-{{#each news_2}}
-	<div class="content" mc:repeatable>
-	  <table bgcolor="">
-	    <tr>
-	      <td class="small" width="20%" style="vertical-align: top; padding-right:10px;">
-	        <img src="{{this.image}}" mc:edit="medium"/>
-	      </td>
-	      <td>
-	        <h4 style="margin-left: 5px;">
-	          <a href="{{this.link}}">
-	            {{this.title}}
-	            <small>
+<div class="content-2">
+	{{#each news_2}}
+		<div class="content" mc:repeatable>
+		  <table bgcolor="">
+		    <tr>
+		      <td class="small" width="20%" style="vertical-align: top; padding-right:10px;">
+		        <a href="{{this.link}}">
+		        	<img src="{{this.image}}" mc:edit="medium"/>
+	          </a>
+		      </td>
+		      <td>
+		        <h4 style="margin-left: 5px;">
+		          <a href="{{this.link}}">
+		            {{this.title}}	            
+		          </a>
+		          <br>
+		          <small style="line-height: 1.4;">
 	              {{this.tags}}
 	            </small>
-	          </a>
-	        </h4>
-	        <p style="margin-left: 5px;">
-	          <a href="{{this.link}}">
-	            {{this.content}}
-	          </a>
-	        </p>
-	      </td>
-	    </tr>
-	  </table>
-	</div>
-{{/each}}
+		        </h4>
+		        <p style="margin-left: 5px;">
+		          <a href="{{this.link}}">
+		            {{this.content}}
+		          </a>
+		        </p>
+		      </td>
+		    </tr>
+		  </table>
+		</div>
+	{{/each}}
+</div>
 
+<div class="content-3">
+	{{#each news_3}}
+		<div class="content" mc:repeatable>
+		  <table bgcolor="">
+		    <tr>
+		      <td>
+		        <h5>
+		          <a href="{{this.link}}">{{this.title}}</a>
+		        </h5>
+		        <p>
+		          <a href="{{this.link}}">
+		          {{{this.content}}}
+		        </p>
+		      </td>
+		    </tr>
+		  </table>
+		</div>
+	{{/each}}
 
-
-
-{{#each news_3}}
-	<div class="content" mc:repeatable>
-	  <table bgcolor="">
-	    <tr>
-	      <td>
-	        <h5>
-	          <a href="{{this.link}}">{{this.title}}</a>
-	        </h5>
-	        <p class="">
-	          <a href="{{this.link}}">
-	          {{{this.content}}}
-	        </p>
-	      </td>
-	    </tr>
-	  </table>
-	</div>
-{{/each}}
+</div>
